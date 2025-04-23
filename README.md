@@ -35,8 +35,8 @@ This project serves both as a learning journey and a development playground for 
 2. **Build a Program**
    Navigate to the desired project folder and compile using your preferred method. For example, using g++:
    ```bash
-   g++ main.cpp `wx-config --cxxflags --libs` -o MyApp
-   ./MyApp
+   g++ [file] `wx-config --cxxflags --libs` -o app
+   ./app.exe
    ```
 
    Replace `main.cpp` with your actual source file name.
